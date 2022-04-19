@@ -48,12 +48,6 @@ p{
     height: 20px;
     margin: 0 10px;
 }
-.box1 ul li img:hover{
-    transform:rotate(360deg);
-
-transition: 0.3S;
-
-}
 .profile{
     border-radius: 50%;
 }
