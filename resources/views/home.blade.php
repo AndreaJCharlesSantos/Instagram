@@ -80,7 +80,7 @@ Instagram
         </div>
     </div>
     <div class="row py-3">
-        <p class="suggest-home">Suggestions For You</p>
+        <p class="suggest-home">Sugerencias</p>
         <div class="col-md-12 w-75">
         @foreach ($suggests as $sug)
             <div class="row py-2">

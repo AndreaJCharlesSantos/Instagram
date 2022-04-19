@@ -12,7 +12,7 @@ Login
 <div class="container">
 
     <div class="box1">
-      <img src="images/Capture.PNG" alt="">
+      <img src="images/mockup2.PNG" alt="">
     </div>
 
       <div class="box1">
@@ -21,7 +21,7 @@ Login
                     <form class="login-form" method="POST" action="{{route('login')}}">
                         @csrf
                       <div class="field">
-                        <input id="email" type="email" name="email" placeholder="Phone number, username, or email" required
+                        <input id="email" type="email" name="email" placeholder="Telefono, Username o Correo" required
                         autocomplete="email"
                         autofocus>
                         <!-- @error('email')
@@ -31,7 +31,7 @@ Login
                         @enderror' -->
                       </div>
                       <div class="field">
-                        <input id="password" name="password" type="password" placeholder="password" required autocomplete="current-password"/>
+                        <input id="password" name="password" type="password" placeholder="Contraseña" required autocomplete="current-password"/>
 
                         <!-- @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -39,10 +39,10 @@ Login
                                     </span>
                                 @enderror -->
                       </div>
-                      <button class="login-button" type="submit" title="login">Log In</button>
+                      <button class="login-button" type="submit" title="login">Inicia Sesion</button>
                       <div class="separator">
                         <div class="line"></div>
-                        <p>OR</p>
+                        <p>O</p>
                         <div class="line"></div>
                       </div>
                       <div class="other">
@@ -52,13 +52,13 @@ Login
                             {{ __('Forgot Your Password?') }}
                         </a>
                     @endif -->
-                        <a class="forgot-password" href="#">Forgot password?</a>
+                        <a class="forgot-password" href="#">¿Olvidaste tu contraseña?</a>
                       </div>
                     </form>
               </div>
           <div class="box" id="lastlogin">
             <!-- @if (Route::has('register')) -->
-            <p>Don't have an account? <a class="signup" href="{{route('register')}}">Sign Up</a></p>
+            <p>¿No tienes una cuenta? <a class="signup" href="{{route('register')}}">Registrate</a></p>
             <!-- @endif -->
           </div>
       </div>
@@ -66,19 +66,9 @@ Login
 
       <div class="footer">
         <ul>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">HELP</a></li>
-          <li><a href="">PRESS</a></li>
-          <li><a href="">API</a></li>
-          <li><a href="">JOBS</a></li>
-          <li><a href="">PRIVACY</a></li>
-          <li><a href="">TEMS</a></li>
-          <li><a href="">LOCATIONS</a></li>
-          <li><a href="">TOP ACCOUNTS</a></li>
-          <li><a href="">HASHTAGS</a></li>
-          <li><a href="">LANGUAGE</a></li>
+          
         </ul>
-        <p>© 2021 Instagram</p>
+        <p>© 2022 Instagram</p>
       </div>
 
 
