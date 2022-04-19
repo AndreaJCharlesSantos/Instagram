@@ -26,12 +26,11 @@ New Post
 <div class="row">
     @foreach ($tag->posts as $post)
 
-    <a href="{{route('post.show' , $post->id)}}" class="col-md-4 pt-3">
+    <a href="{{route('post.show' , $post->id)}}" class="col-md-4">
         <div class="post-img">
             <img style="height: 250px" class="w-100" src="{{asset('images/posts/' .$post->image)}}" alt="">
             <div class="layo">
                 <i class="like-icon">{{$post->users_like_it->count()}} <i class="fas fa-heart"></i> </i>
-                <i class="comment-icon"> {{$post->comments->count()}} <i class="fas fa-comment"></i></i>
             </div>
         </div>
     </a>

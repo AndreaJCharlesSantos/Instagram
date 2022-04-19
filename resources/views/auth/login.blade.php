@@ -40,20 +40,7 @@ Login
                                 @enderror -->
                       </div>
                       <button class="login-button" type="submit" title="login">Inicia Sesion</button>
-                      <div class="separator">
-                        <div class="line"></div>
-                        <p>O</p>
-                        <div class="line"></div>
-                      </div>
-                      <div class="other">
-                        
-                        <!-- @if (Route::has('password.request'))
-                        <a class="forgot-password" href="{{ route('password.request') }}">
-                            {{ __('Forgot Your Password?') }}
-                        </a>
-                    @endif -->
-                        <a class="forgot-password" href="#">¿Olvidaste tu contraseña?</a>
-                      </div>
+                      
                     </form>
               </div>
           <div class="box" id="lastlogin">
