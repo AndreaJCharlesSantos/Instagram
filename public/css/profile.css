@@ -72,21 +72,10 @@ p{
     height: 20px;
     margin: 0 10px;
 }
-.box1 ul li img:hover{
-    transform:rotate(360deg);
-
-transition: 0.3S;
-
-}
 .profile{
     border-radius: 50%;
     width: 55px;
     height: 55px;
-}
-
-.box1 ul li a  .profile:hover{
-    transform:rotateY(360deg);
-    transition: 0.3S;
 }
 .line{
     width: 100%;
@@ -216,12 +205,6 @@ display: none !important;
     /* margin-top: 50px; */
 
     margin-top: 20px ;
-}
-.setting ul li img:hover{
-    transform:rotate(360deg);
-
-transition: 0.3S;
-
 }
 #username {
 

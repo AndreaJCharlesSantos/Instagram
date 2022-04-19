@@ -4,11 +4,6 @@
         wire:click="clickLike">
       <i class="{{$likebuttonClass}}"></i>
     </a>
-    <a href=""> <i class="far fa-comment"></i></a>
-    <a style="cursor: pointer"
-        wire:click="clickSave">
-      <i class="{{$savebuttonClass}}"></i>
-    </a>
 </h5>
 <div  class="card-text" name="like" id="like" data-toggle="modal" data-target="#exampleModalCenter">
     <a style="cursor: pointer" > {{$likesCount}} likes</a>

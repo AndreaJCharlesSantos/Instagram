@@ -1,5 +1,5 @@
 <div class="box1 position-relative" id="search">
-    <input type="search" wire:model='search' placeholder="&#xf002 Search" style="font-family:Arial, FontAwesome">
+    <input type="search" wire:model='search' placeholder="&#xf002" style="font-family:Arial, FontAwesome">
         <div class="users-search position-absolute" wire:loading.class.delay='opacity-75'>
             @foreach ($users as $user )
             <a href="{{route('user.profile' , $user->username)}}" class="row search-wrapper p-2">
