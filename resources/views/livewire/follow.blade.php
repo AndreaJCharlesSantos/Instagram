@@ -7,28 +7,6 @@
         <div class="offset-md-1 col-md-3">
             <p id="username"> {{$user->username}} </p>
         </div>
-        <div class="col-md-2 edit-profile text-dark">
-            @if($is_profile)
-            <form method="get" action="{{route('user.edit' , Auth::user()->id)}}">
-                @csrf
-                <button type="submit">Edit Profile</button>
-            </form>
-            @else
-            <button type="submit" class="{{$followClass}} mt-3 f-btn"  wire:click="click"> {{$buttonContent}} </button>
-
-            @endif
-        </div>
-
-
-        <div class="col-md-1 setting">
-            <ul>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" >
-                        <img src="{{asset('images/setting.png')}}" alt="" class="profile">
-                    </a>
-                    </li>
-            </ul>
-        </div>
 </div>
 </div>
 <div class="container">

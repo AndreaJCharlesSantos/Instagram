@@ -24,7 +24,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dorper">
                             <li><a class="dropdown-item" href="{{route('user.profile', Auth::user()->username)}}"><i class="far fa-user-circle"></i> Profile</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="{{route('logout')}}">Log Out</a></li>
+                            <li><a class="dropdown-item" href="{{route('logout')}}">Cerrar Sesion</a></li>
                         </ul>
                         </li>
                 </ul>

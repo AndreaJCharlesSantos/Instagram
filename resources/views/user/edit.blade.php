@@ -17,9 +17,6 @@ Edit Profile
 
          <div class="col-md-4">
             <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action active">
-                 Edit Profile
-                </a>
                 <!-- <a href="#" class="list-group-item list-group-item-action">Change Password</a> -->
                 <a href="{{ route('logout') }}" class="list-group-item list-group-item-action">Logout</a>
 

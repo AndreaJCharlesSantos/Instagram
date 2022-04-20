@@ -75,12 +75,11 @@
             {{-- Posts --}}
             @forelse ($posts as $post )
             <div class="col-md-4 pt-3">
-                <a href="{{route('post.show' , $post->id)}}">
+                <a href=#>
                     <div class="post-img">
                     <img style="height: 293px;" class='w-100' src="{{asset('images/posts/' . $post->image)}}" alt="">
                     <div class="layo">
                         <i class="like-icon">{{$post->users_like_it->count()}} <i class="fas fa-heart"></i> </i>
-                        <i class="comment-icon"> {{$post->comments->count()}} <i class="fas fa-comment"></i></i>
                     </div>
                 </div>
                 </a>
@@ -103,12 +102,11 @@
             {{-- Saved Posts --}}
             @forelse ($user->saved_posts as $post )
             <div class="col-md-4 pt-3">
-                <a href="{{route('post.show' , $post->id)}}">
+                <a href=#>
                     <div class="post-img">
-                    <img style="height: 293px;" class='w-100' src="{{asset('images/posts/' . $post->image)}}" alt="">
+                    <img style="height: 293px;" class='w-100' src=# alt="">
                     <div class="layo">
                         <i class="like-icon">{{$post->users_like_it->count()}} <i class="fas fa-heart"></i> </i>
-                        <i class="comment-icon"> {{$post->comments->count()}} <i class="fas fa-comment"></i></i>
                     </div>
                 </div>
                 </a>
